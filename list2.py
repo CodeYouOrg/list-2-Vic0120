@@ -6,7 +6,9 @@
 # modify the passed in list.
 
 def remove_adjacent(nums):
-    # +++your code here+++
+    nums = list(set(nums))
+
+    return nums
     return
 
 
@@ -16,7 +18,9 @@ def remove_adjacent(nums):
 # pass of both lists.
 
 def linear_merge(list1, list2):
-    # +++your code here+++
+    list3 = list1 + list2
+    list3.sort()
+    return list3
     return
 
 
